@@ -1,0 +1,374 @@
+/*
+Note: Some unused classes are present in this document from old projects
+
+*/
+
+.fullSection {
+    height: auto;
+    max-width: 95%;
+    margin-left: -5%;
+}
+
+.sectionType1 {
+
+    background-color: gainsboro;
+    margin-left: 2.5%;
+}
+
+#mainPage {
+    /*    background-color: gainsboro;*/
+    height: 98vh;
+    overflow-y: auto;
+}
+
+.sectionType2 {
+    background-color: transparent;
+    height: 100%;
+}
+
+
+
+.nonHeadSection {
+    margin-top: 10px;
+    margin-left: 2.5%;
+
+    /*    opacity: .4;*/
+    /*    background-color: gainsboro;*/
+}
+
+.smallSectionHeader {
+    background-color: aliceblue;
+}
+
+.smallSection {
+    /*    border: solid black 4px;*/
+    opacity: 1;
+    background-color: transparent;
+}
+
+.smallSectionText {
+    /*    border: solid black 4px;*/
+    opacity: 1;
+    background-color: gainsboro;
+}
+
+.unintrusiveButton {
+    background-color: aliceblue;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    float: right;
+}
+
+#iconholder {
+    margin-left: 2px;
+}
+
+.heavyLead {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.sectionType1T {
+    background-color: transparent;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left: 2.5%;
+
+}
+
+#loading-img {
+    background: url(http://preloaders.net/preloaders/360/Velocity.gif) center center no-repeat;
+    height: 100%;
+    z-index: 20;
+}
+
+.overlay {
+    background: #e9e9e9;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+#icon1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#resultsContainer {
+    display: none;
+}
+
+.wikiResult {
+    float: left;
+    margin-top: 5px;
+
+}
+
+.wikiResultContainer {
+    background-color: antiquewhite;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.wikiResultBody {
+    float: left;
+    margin-top: 10px;
+}
+
+.wikiResultContainer2 {
+    margin-bottom: 10px;
+}
+
+.unmodifiedLink {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.bodyOfThePage {
+    background-color: blanchedalmond;
+}
+
+#simonConsole {
+    background-color: #333333;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 5.5px solid black;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.simonPad {
+    border: 10px solid #333333;
+    position: relative;
+    float: left;
+    width: 292px;
+    height: 292px;
+
+}
+
+.lowerHalf {
+    margin-top: 6px;
+}
+
+.leftHalf {
+    margin-right: 5px;
+}
+
+.green {
+    background-color: #00A74A;
+    border-radius: 300px 0 0 0;
+}
+
+
+.liteGreen {
+    background-color: lightgreen;
+
+}
+
+/*
+.green:active {
+        background-color: lightgreen;
+}
+*/
+
+.red {
+    background-color: #9F0F17;
+    border-radius: 0 300px 0 0;
+}
+
+/*
+.red:active {
+        background-color: #ff9999;
+}
+*/
+
+.liteRed {
+    background-color: #ff9999;
+}
+
+.yellow {
+    background-color: #CCA707;
+    border-radius: 0 0 0 300px;
+
+}
+
+/*
+.yellow:active {
+        background-color: lightyellow;
+}
+*/
+
+.liteYellow {
+    background-color: lightyellow;
+}
+
+.blue {
+    background-color: #094A8F;
+    border-radius: 0 0 300px 0;
+}
+
+/*
+.blue:active {
+        background-color: lightskyblue;
+}
+*/
+
+.liteBlue {
+    background-color: lightskyblue;
+}
+
+
+#middleCircle {
+    background-color: floralwhite;
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    border-radius: 100%;
+    margin-left: 130px;
+    margin-top: 130px;
+    border: solid black 12px;
+}
+
+#titleSimon {
+    margin-top: 27px;
+}
+
+#titleSimonText {
+    font-size: 50px;
+}
+
+#trademark {
+    font-size: 25px;
+
+
+}
+
+.counterDisplayer {
+    background-color: black;
+    font-size: 40px;
+    color: #666;
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid black 1px;
+    text-align: right;
+
+}
+
+#displayRow {
+    margin-top: 40px;
+}
+
+.lightDisplay {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 0px;
+}
+
+.greenLight {
+    background-color: green;
+
+}
+
+.redButton {
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid black 3px;
+}
+
+.greenButton {
+    background-color: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid black 3px;
+
+}
+
+.red2 {
+    background-color: red;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
